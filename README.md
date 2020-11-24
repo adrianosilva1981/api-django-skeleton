@@ -1,4 +1,4 @@
-### Credenciais:
+### Instalação:
 ```python
 # instalar o último django LTS:
 $ pip install django==2.2.9
