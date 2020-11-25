@@ -1,5 +1,6 @@
 ### Instalação:
 ```python
+# =============== a partir do zero ===============
 # instalar o último django LTS:
 $ pip install django==2.2.9
 
@@ -16,6 +17,7 @@ $ pip install djangorestframework markdown django-filter
 $ python manage.py makemigrations
 $ python manage.py migrate
 
+# =============== a partir deste clone ===============
 # criar user para acesso a api:
 $ python manage.py createsuperuser
 
