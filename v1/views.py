@@ -12,6 +12,13 @@ class echoTest(APIView):
     def get(self, request):
         return Response({ 'echo': 'test' })
 
+class echoPostTest(APIView):
+    """
+    echo post test
+    """
+    def post(self, request):
+        return Response({ 'echo': 'test' })
+
 class testMySQL(APIView):
     """
     mysql test
