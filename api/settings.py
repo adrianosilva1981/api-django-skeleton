@@ -93,6 +93,19 @@ DATABASES = {
         'database': 'drf_test'
     }
 }
+"""
+# if use only mysql (change 'services/connect.py' too):
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'testdb',
+        'USER': 'root',
+        'PASSWORD': '123456',
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
+    }
+}
+"""
 
 
 # Password validation
