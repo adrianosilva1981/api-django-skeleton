@@ -13,11 +13,11 @@ $ django-admin startapp nome-do-app
 # instalar o django rest framework e o filter
 $ pip install djangorestframework markdown django-filter
 
+# =============== a partir deste clone ===============
 # fazer a migração:
 $ python manage.py makemigrations
 $ python manage.py migrate
 
-# =============== a partir deste clone ===============
 # criar user para acesso a api:
 $ python manage.py createsuperuser
 
